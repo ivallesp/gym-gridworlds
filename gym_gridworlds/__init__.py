@@ -9,6 +9,14 @@ register(
         entry_point='gym_gridworlds.envs:WindyGridworldEnv',
         )
 register(
+        id='WindyGridworldExtended-v0',
+        entry_point='gym_gridworlds.envs:WindyGridworldExtendedEnv',
+        )
+register(
+        id='StochasticWindyGridworld-v0',
+        entry_point='gym_gridworlds.envs:StochasticWindyGridworldEnv',
+        )
+register(
         id='Cliff-v0',
         entry_point='gym_gridworlds.envs:CliffEnv',
         )

@@ -36,6 +36,29 @@ shifted upward by a wind which strength varies between columns.
 
 .. _book: http://incompleteideas.net/book/the-book-2nd.html
 
+``WindyGridworldExtended-v0``
+---------------------
+
+Windy gridworld is an env for solving the exercise 6.9 in the book_.
+This is a standard gridworld as described above
+but there is a crosswind upward through the middle of the grid.
+Action are the standard ones but with the possibility of performing
+oblicuous moves and remaining stopped.
+
+.. _book: http://incompleteideas.net/book/the-book-2nd.html
+
+``StochasticWindyGridworld-v0``
+---------------------
+
+Stochastic Windy gridworld is an env for solving the exercise 6.10 in the book_.
+This is a standard gridworld as described above
+but there is a crosswind upward through the middle of the grid in addition to
+stochastic wind for all the board.
+Action are the standard ones but with the possibility of performing
+oblicuous moves and remaining stopped.
+
+.. _book: http://incompleteideas.net/book/the-book-2nd.html
+
 ``Cliff-v0``
 ------------
 
